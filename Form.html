@@ -1,0 +1,36 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to apply in orginisation</title>
+</head>
+<body>
+    <form action="get">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="enter your name">
+        </div>
+        <div>
+            Gender: <label for="male">Male</label>
+            <input type="radio" name="male" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="female" id="female">
+        </div>
+        <div>
+            <label for="comment">Enter your comment here:</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter your comment here">
+            </textarea>
+        </div>
+        <div>
+            Fruits:
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="Bannana">Bannana</option>
+            </select>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
